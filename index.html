@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xikle</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to right, #ff00ff, #00ffff, #ff00ff, #00ffff);
+      animation: colorChange 4s ease-in-out infinite;
+    }
+
+    @keyframes colorChange {
+      0% { background: linear-gradient(to right, #ff00ff, #00ffff, #ff00ff, #00ffff); }
+      25% { background: linear-gradient(to right, #00ffff, #ff00ff, #00ffff, #ff00ff); }
+      50% { background: linear-gradient(to right, #ff00ff, #00ffff, #ff00ff, #00ffff); }
+      75% { background: linear-gradient(to right, #00ffff, #ff00ff, #00ffff, #ff00ff); }
+      100% { background: linear-gradient(to right, #ff00ff, #00ffff, #ff00ff, #00ffff); }
+    }
+
+    .center-text {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 6vw;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-text">xikle</div>
+</body>
+</html>
